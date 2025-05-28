@@ -1,0 +1,38 @@
+commit cdaf522cf7e5a3c9204fb6456822eb2286738f6f
+Author: Jonathan Samuel Gonzalez <jgonzalezi7@miumg.edu.gt>
+Date:   Wed May 28 11:29:47 2025 -0600
+
+    Main9959-23-3184JonathanGonzalez
+
+commit 12bf329b175c4cedde2667ef1f863a6a75b698ef
+Author: Jonathan Samuel Gonzalez <jgonzalezi7@miumg.edu.gt>
+Date:   Wed May 28 11:21:49 2025 -0600
+
+    RamaSeguridadJOnathanGonzalez
+
+commit 23980a141d9bde82f976280a5646fa511645cb65
+Author: Jonathan Samuel Gonzalez <jgonzalezi7@miumg.edu.gt>
+Date:   Wed May 28 11:17:01 2025 -0600
+
+    RamaReporteJonathanGonzalez
+    
+    git push origin RamaReporte9959-23-3184
+    git commit -m RamaReporteJonathanGonzalez
+
+commit f88206f424e9e357d5c8a3ddadbc217540365afb
+Author: Jonathan Samuel Gonzalez <jgonzalezi7@miumg.edu.gt>
+Date:   Wed May 28 11:09:17 2025 -0600
+
+    RamaCRUD_catalogoxJonathanGOnzalez
+
+commit c8ad1fe1a4832cde74d06036b47a9982d15ecb73
+Author: Jonathan Samuel Gonzalez <jgonzalezi7@miumg.edu.gt>
+Date:   Wed May 28 10:56:40 2025 -0600
+
+    RamaMenuGeneralJonathanG
+
+commit 02f644878191c86f79e7c1ebc9ffbf58ef797e96
+Author: Jonathan González <157381160+jonathan8556@users.noreply.github.com>
+Date:   Wed May 28 09:52:40 2025 -0600
+
+    Initial commit

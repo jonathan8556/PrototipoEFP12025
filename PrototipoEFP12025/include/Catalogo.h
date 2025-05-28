@@ -1,16 +1,42 @@
+//Jonathan Samuel GOnzalez Ixpata
 #ifndef CATALOGO_H
 #define CATALOGO_H
 
+#include <string>
+#include <vector>
+#include "Bitacora.h"
+#include <iomanip>
 
-class Catalogo
-{
-    public:
-        Catalogo();
-        virtual ~Catalogo();
+using namespace std;
 
-    protected:
+class Catalogo {
+private:
+    struct Paciente {
+        char idPaciente[20];
+        char nombre[50];
+        char apellido[50];
+        char genero[15];
+        char direccion[100];
+        char telefono[15];
+    };
 
-    private:
+    vector<Paciente> pacientes;
+    string usuario;
+    string archivo = "pacientes.dat";
+
+    void cargarPacientes();
+    void guardarPacientes();
+    void ordenarPacientes();
+
+public:
+    void setUsuario(const string& u);
+    void menuCatalogo();
+    void crearPaciente();
+    void borrarPaciente();
+    void buscarPaciente();
+    void modificarPaciente();
+    void desplegarPacientes();
+    void pausar();
 };
 
-#endif // CATALOGO_H
+#endif

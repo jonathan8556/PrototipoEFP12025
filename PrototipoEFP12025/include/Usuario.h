@@ -1,16 +1,35 @@
+//Jonathan Samuel GOnzalez Ixpata
 #ifndef USUARIO_H
 #define USUARIO_H
 
+#include <string>
+using namespace std;
 
-class Usuario
-{
-    public:
-        Usuario();
-        virtual ~Usuario();
-
-    protected:
-
-    private:
+struct RegistroUsuario {
+    char nombreUsuario[30];
+    char contrasena[30];
 };
 
-#endif // USUARIO_H
+class Usuario {
+private:
+    string usuario;
+    string nombreUsuario;
+    string contrasena;
+    static const string ARCHIVO_LOGIN;
+
+public:
+    void setUsuario(const string& u);
+    Usuario();
+    Usuario(const string& usuario, const string& contrasena);
+    string getNombreUsuario() const;
+    string getContrasena() const;
+    void setNombreUsuario(const string& usuario);
+    void setContrasena(const string& contrasena);
+    bool autenticarDesdeArchivo(string& usuarioAutenticado);
+    string registrarUsuario();
+    bool menuAutenticacion(string& usuarioAutenticado);
+    static void limpiarPantalla();
+    static void pausar();
+};
+
+#endif
